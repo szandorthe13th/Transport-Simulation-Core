@@ -6,6 +6,8 @@ export class RouteType {
 export const ROUTE_TYPES: Record<string, RouteType> = {
 	train_normal: new RouteType("directions_railway", "Train"),
 	train_light_rail: new RouteType("tram", "Light Rail"),
+	train_metro: new RouteType("subway", "Metro"),
+	train_intercity: new RouteType("directions_railway_2", "Intercity"),
 	train_high_speed: new RouteType("train", "High Speed"),
 	boat_normal: new RouteType("sailing", "Ferry"),
 	boat_light_rail: new RouteType("directions_boat", "Cruise"),
